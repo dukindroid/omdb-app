@@ -7,7 +7,7 @@
 </script>
 
 <h1 class={styles.h1}>Henry's OMDB App</h1>
-<MyInput label="Buscar:" placeholder="escribe algo..." />
+<MyInput label="Buscar:" placeholder="escribe algo..." id="searchinput" />
 <MyCard image={posterImg}>
 	<span slot="title">Ironman</span>
 	<span slot="description">⭐: 4.5 / 5 </span>
